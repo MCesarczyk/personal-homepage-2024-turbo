@@ -1,4 +1,5 @@
 import type { Preview } from "@storybook/react";
+import '../src/style.css';
 
 const preview: Preview = {
   parameters: {
@@ -9,7 +10,13 @@ const preview: Preview = {
         date: /Date$/i,
       },
     },
+    options: {
+      storySort: {
+        order: ['Atoms', 'Molecules', 'Organisms'],
+      },
+    },
   },
+  decorators: [],
 };
 
 export default preview;

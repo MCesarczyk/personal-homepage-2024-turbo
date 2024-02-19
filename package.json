@@ -5,7 +5,8 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "storybook-ui": "pnpm storybook dev -p 6006 --filter \"@repo/ui\""
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
