@@ -1,0 +1,1 @@
+import{j as t}from"./jsx-runtime-29545a09.js";const r=({children:e})=>t("div",{className:"flex flex-col justify-center items-center w-full max-w-lg h-80 p-12 my-0 mx-auto",children:e});try{r.displayName="Container",r.__docgenInfo={description:"",displayName:"Container",props:{}}}catch{}export{r as C};

@@ -1,0 +1,1 @@
+import{j as o}from"./jsx-runtime-29545a09.js";const a=({children:t})=>o("p",{className:"text-xs font-bold text-gray-700 dark:text-white",children:t});try{a.displayName="Caption",a.__docgenInfo={description:"",displayName:"Caption",props:{}}}catch{}export{a as C};
