@@ -3,7 +3,7 @@ import { ComponentProps } from 'react';
 
 import { Thumbnail } from './Thumbnail';
 import { Container } from '../../Container';
-import { GithubThumbnail } from './GithubThumbnail';
+import { GithubThumbnail } from '@repo/assets';
 
 const meta: Meta<typeof Thumbnail> = {
   component: Thumbnail,
@@ -23,10 +23,10 @@ const Template: StoryFn<ComponentProps<typeof Thumbnail>> = (args) => (
   </Container>
 );
 
-export const _Thumbnail = Template.bind({});
+export const _Thumbnail: StoryFn<ComponentProps<typeof Thumbnail>> = Template.bind({});
 _Thumbnail.args = {
   id: 1,
-  icon: <GithubThumbnail />,
+  icon: GithubThumbnail,
   url: 'https://example.com',
 };
 _Thumbnail.parameters = {
