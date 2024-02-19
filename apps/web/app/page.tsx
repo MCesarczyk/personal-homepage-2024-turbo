@@ -13,6 +13,7 @@ import {
   AUTHOR_NAME,
   FOOTER_NOTE,
   skills,
+  learning,
   goals,
   sampleRepositories,
   portrait,
@@ -32,6 +33,7 @@ export default async function Index() {
         }
       />
       <Section title={'My skills'} elements={skills} />
+      <Section title={'Things I\'m currently learning'} elements={learning} />
       <Section title={'My closest goals'} elements={goals} />
       <Gallery
         title={'Portfolio'}

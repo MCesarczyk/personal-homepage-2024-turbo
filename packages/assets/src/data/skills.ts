@@ -1,15 +1,11 @@
 export const skills = [
-    "Semantic HTML",
-    "CSS/BEM convention",
+    "JS/ES6+",
+    "React 18",
+    "TypeScript",
     "Styled components",
     "Tailwind CSS",
     "Ant Design UI library",
     "Material UI library",
-    "JS/ES6+ features",
-    "TypeScript",
-    "React 18",
-    "Next.js 14",
-    "React/custom Hooks",
     "React-Redux",
     "Redux-Saga",
     "React Router",
@@ -19,24 +15,19 @@ export const skills = [
     "MSW",
     "Cypress",
     "Storybook",
-    "NX monorepo",
     "Node.js",
     "Express.js",
     "Prisma",
-    "Nest.js",
     "SQL basics",
-    "Restful API",
-    "Fullstack apps",
-    "packet managers",
+    "GraphQL",
+    "Docker",
     "Git/gh-pages",
-    "GitHub flow, collaborating",
-    "Markdown",
-    "Trello: tasks management",
-    "Figma: reading UI layout",
-    "Scrum/Agile metodology",
-    "Expert in CNC programming",
-    "CNC machines setting/operation",
-    "General technical knowledge"
+]
+
+export const learning = [
+    "Next.js 14",
+    "NX monorepo",
+    "Nest.js",
 ]
 
 export const goals = [
