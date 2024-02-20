@@ -45,7 +45,7 @@ export const Tile = ({ title, images, description, links }: TileProps) => (
     <ul className="list-none pl-0">
       {links.map((link) => (
         <li key={link.id}>
-          {link.prefix}:{" "}
+          {link.prefix}
           <a
             className="text-blue-700"
             href={link.url}
