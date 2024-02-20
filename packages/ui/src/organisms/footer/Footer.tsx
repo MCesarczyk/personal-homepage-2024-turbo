@@ -8,7 +8,7 @@ interface FooterProps {
   children: ReactNode[];
 }
 
-export const Footer = ({ address, note, children }: FooterProps) => (
+export const Footer = ({ address, children }: FooterProps) => (
   <div className="w-full md:w-1/2">
     <div className="text-lg sm:text-2xl md:text-3xl lg:text-4xl">
       <Caption>CONTACT:</Caption>
@@ -20,7 +20,6 @@ export const Footer = ({ address, note, children }: FooterProps) => (
         {address}
       </a>
     </div>
-    <p className="mb-14">{note}</p>
     <div className="flex">{children}</div>
   </div>
 );
