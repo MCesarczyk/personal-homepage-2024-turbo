@@ -26,6 +26,13 @@ const Template: StoryFn<ComponentProps<typeof Tile>> = (args) => (
 export const _Tile: StoryFn<ComponentProps<typeof Tile>> = Template.bind({});
 _Tile.args = {
   title: 'Title',
+  images: [
+    {
+      id: 1,
+      url: 'https://via.placeholder.com/150',
+      alt: 'Placeholder image',
+    },
+  ],
   description: 'Description',
   links: [
     {
