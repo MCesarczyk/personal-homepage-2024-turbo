@@ -2,7 +2,7 @@ import type { Meta, StoryFn } from '@storybook/react';
 import { ComponentProps } from 'react';
 
 import { Thumbnail } from './Thumbnail';
-import { Container } from '../../Container';
+import { Container } from '../../utils/Container';
 import { GithubThumbnail } from '@repo/assets';
 
 const meta: Meta<typeof Thumbnail> = {

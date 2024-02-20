@@ -7,14 +7,14 @@
     "generate:component": "turbo gen react-component",
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
-    "storybook": "storybook dev -p 6006",
+    "storybook": "storybook dev -p 6100",
     "build-storybook": "storybook build"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
-    "@repo/tailwind-config": "workspace:*",
     "@repo/assets": "workspace:*",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/tailwind-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
     "@storybook/addon-essentials": "^7.6.16",
     "@storybook/addon-interactions": "^7.6.16",
     "@storybook/addon-links": "^7.6.16",
@@ -40,6 +40,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "clsx": "^2.1.0"
+    "clsx": "^2.1.0",
+    "sharp": "^0.33.2"
   }
 }

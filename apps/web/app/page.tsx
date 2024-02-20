@@ -1,7 +1,6 @@
 import {
   Header,
   Section,
-  Gallery,
   Footer,
   Thumbnail,
   footerThumbnails,
@@ -20,6 +19,7 @@ import {
 } from '@repo/assets';
 import Image from 'next/image';
 import { NextThemeSwitcher } from './NextThemeSwitcher';
+import { Gallery } from '../ui';
 
 export default async function Index() {
   return (
@@ -33,8 +33,8 @@ export default async function Index() {
         }
       />
       <Section title={'My skills'} elements={skills} />
-      <Section title={'Things I\'m currently learning'} elements={learning} />
-      <Section title={'My closest goals'} elements={goals} />
+      <Section title={'Things I\'m learning right now'} elements={learning} />
+      <Section title={'My next goals'} elements={goals} />
       <Gallery
         title={'Portfolio'}
         subtitle={'My recent projects'}
@@ -45,6 +45,7 @@ export default async function Index() {
           description: repo.description,
           codeLink: repo.html_url,
           demoLink: repo.homepage,
+          images: repo.images,
         }))}
       />
       <Footer note={FOOTER_NOTE} address={ADDRESS}>

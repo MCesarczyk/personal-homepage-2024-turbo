@@ -1,5 +1,5 @@
 import { ComponentProps } from 'react';
-import { Container } from '../../Container';
+import { Container } from '@repo/ui';
 
 import type { Meta, StoryFn } from '@storybook/react';
 
@@ -7,7 +7,7 @@ import { Tile } from './Tile';
 
 const meta: Meta<typeof Tile> = {
   component: Tile,
-  title: 'Molecules/Tile',
+  title: 'Tile',
   tags: ['autodocs'],
   argTypes: {
     title: { control: 'text', description: 'Title' },
@@ -23,7 +23,7 @@ const Template: StoryFn<ComponentProps<typeof Tile>> = (args) => (
   </Container>
 );
 
-export const _Tile = Template.bind({});
+export const _Tile: StoryFn<ComponentProps<typeof Tile>> = Template.bind({});
 _Tile.args = {
   title: 'Title',
   description: 'Description',

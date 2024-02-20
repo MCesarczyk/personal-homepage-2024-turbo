@@ -2,7 +2,7 @@ import type { Meta, StoryFn } from '@storybook/react';
 import { ComponentProps } from 'react';
 
 import { Spinner } from './Spinner';
-import { Container } from '../../Container';
+import { Container } from '../../utils/Container';
 
 const meta: Meta<typeof Spinner> = {
   component: Spinner,

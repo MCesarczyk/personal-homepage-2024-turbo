@@ -3,10 +3,11 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
-    "dev": "turbo dev",
+    "dev": "turbo run dev --parallel",
+    "storybook": "turbo run storybook --parallel",
+    "storybook:build": "turbo run build-storybook --parallel",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "storybook-ui": "pnpm storybook dev -p 6006 --filter \"@repo/ui\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
